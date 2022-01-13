@@ -1,0 +1,42 @@
+/*Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis */
+:root {
+    --vermelho:#E50914;
+    --preto: #141414;
+
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 10px;
+}
+    header nav a:hover {
+        color: #ffffff;
+    }
