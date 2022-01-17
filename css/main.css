@@ -15,7 +15,7 @@
 body {
     color: #ffffff;
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -99,4 +99,14 @@ header nav a{
 
 .filme-principal .container{
     width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-movies {
+    margin-top: 5px;
 }
